@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bifree</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="header">
+				<div class="logo__image">
+					<img src="img/bifree_logo.png" alt="">
+				</div>
+				<div class="top__menu">
+					<nav>
+						<ul>
+							<li class="gradient"><a href="#about">About</a></li>
+							<li class="gradient"><a href="#works">Works</a></li>
+							<li class="gradient"><a href="#contact">Contact</a></li>
+							<li class="gradient"><a href="">Recruitment</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="video__container down-to-top">
+			<div id="video_mb">
+				<video src="Bifree.mp4" playsinline loop autoplay muted></video>
+			</div><br>
+		</div>
+
+		<div id="about">
+			<div class="info container">
+				<img src="img/bifree2.jpg" alt="">
+				<div class="skill skill__1 effect-fade">
+					<div class="skill__img"><img src="img/skill1.jpg" alt=""></div>
+					<div class="skill__text"><h3>ウェブサイト作成</h3></div>
+				</div>
+				<div class="skill skill__2 effect-fade">
+					<div class="skill__img"><img src="img/skill2.jpg" alt=""></div>
+					<div class="skill__text"><h3>ウェブシステム構築</h3></div>
+					
+				</div>
+				<div class="skill skill__3 effect-fade">
+					<div class="skill__img"><img src="img/skill3.jpg" alt=""></div>
+					<div class="skill__text"><h3>動画・チラシ制作</h3></div>
+				</div>
+			</div>
+			<div style="text-align: center;"><img src="img/bifree3.jpg" alt=""></div>
+			<div class="description">
+				<div class="diversity down-to-top">
+					Bifreeの強みはメンバーの多様性。日本にいるLGBTQ当事者、非当事者に限らず海外にも活動に協力してくれる仲間がいます。英語でコミュニケーションを取ることはもちろん、共同でプログラミングができるチャンスもあります。週に１度、フィリピン人英語講師（メンバーの１人）が生の英語を教えてくれます。様々な文化を土壌として作られた団体だからこそできる、柔軟性が私たちのウリです。
+					<img src="img/feature1.jpg" alt="">
+				</div>
+				<div class="challengebility down-to-top">
+					Bifreeの強みは多様性だけではありません。様々なとに挑戦することにより生まれた、行動力です。YouTubeをはじめ、社会に発信することに重きをおき、その中身をより充実したものにするためにも様々な人に会っています。
+					<img src="img/feature2.jpg" alt="">
+				</div>
+			</div>
+			<div class="main__image">
+				<img src="img/main.jpg" alt="">
+				<div class="volunteer"><div class="main__btn">ボランティア募集要綱</div></div>
+			</div>
+		</div>
+
+		<div id="works">
+			<div class="container">
+				<div class="works__title">
+					<img src="img/bifree4.jpg" alt="">
+				</div>
+				<div class="works__list">
+					<div class="list">
+						<ul class="works__items">
+							<li class="item"><a href="https://bifree222.com/"><img src="img/sample1.jpg" alt=""></a></li>
+							<li class="item"><a href="https://bifree222.com/web-lab/good_pasta/"><img src="img/sample2.jpg" alt=""></a></li>
+							<li class="item"><a href="https://bifree222.com/web-lab/hospital-sample/"><img src="img/sample3.jpg" alt=""></a></li>
+							<li class="item"><a href="https://bifree222.com/web-lab/bloom/"><img src="img/sample4.jpg" alt=""></a></li>
+							<li class="item"><a href="https://bifree222.com/web-lab/your_coding"><img src="img/sample5.jpg" alt=""></a></li>
+							<li class="item"><a href="https://bifree222.com/"><img src="img/sample6.png" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="contact">
+			<div class="container">
+				<div class="works__title">
+					<img src="img/bifree6.jpg" alt="">
+				</div>
+				<div class="contact__form">
+					<form action="">
+						<label>Name</label>
+						<p><input type="text" name="name" id="name"></p>
+						<label for="email">Email</label>
+						<p><input type="email" name="" id=""></p>
+						<label for="">Message</label>
+						<p><textarea name="" id="" cols="30" rows="10"></textarea></p>
+						<p><a href="" class="btn">送信</a></p>
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="footer">
+			<div class="sns">
+				<a href="https://lin.ee/vtB3zY1/"><i class="fab fa-line fa-3x"></i></a>
+				<a href="https://github.com/bifree"><i class="fab fa-github fa-3x"></i></a>
+				<a href="https://twitter.com/"><i class="fab fa-twitter fa-3x"></i></a>
+				<a href="https://youtube.com/"><i class="fab fa-youtube fa-3x"></i>
+			</div>
+			<div class="footer__logo"></a>
+				<p class="rights">(c)Bifree, all rights reserved.</p>
+			</div>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		$(function(){
+    $(window).scroll(function (){
+        $('.left-to-right, .down-to-top').each(function(){
+            var elemPos = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll > elemPos - windowHeight + 150){
+                $(this).addClass('scrollin');
+            }
+        });
+    });
+});
+	</script>
+</body>
+</html>
